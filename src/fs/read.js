@@ -5,7 +5,7 @@ const FILE_URL = getPath(import.meta.url, 'files', 'fileToRead.txt');
 
 const read = async () => {
     try {
-        const fileContent = await readFile(FILE_URL, 'utf8');
+        const fileContent = await readFile(FILE_URL, 'utf-8');
         console.log(fileContent);
     } catch {
         throw new Error(ERROR_MESSAGE);
