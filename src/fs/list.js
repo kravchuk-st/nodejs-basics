@@ -1,4 +1,4 @@
-import { getPath, ERROR_MESSAGE} from './utils.js';
+import { getPath, ERROR_MESSAGE} from '../utils.js';
 import { readdir } from 'fs/promises';
 
 const FOLDER_URL = getPath(import.meta.url, 'files');

@@ -1,4 +1,4 @@
-import { getPath, ERROR_MESSAGE} from './utils.js'
+import { getPath, ERROR_MESSAGE} from '../utils.js'
 import { writeFile } from 'fs/promises';
 
 const FILE_TEXT = 'I am fresh and young';

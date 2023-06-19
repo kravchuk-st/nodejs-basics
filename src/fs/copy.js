@@ -1,5 +1,5 @@
 import { join } from 'path';
-import { getPath, ERROR_MESSAGE} from './utils.js'
+import { getPath, ERROR_MESSAGE} from '../utils.js'
 import { readdir, copyFile, mkdir } from 'fs/promises';
 
 const FOLDER_URL = getPath(import.meta.url, 'files');
