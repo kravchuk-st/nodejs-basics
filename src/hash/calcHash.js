@@ -11,7 +11,7 @@ const calculateHash = async () => {
 
         console.log(hash);
     } catch (error) {
-        throw new Error(error);
+        throw error;
     }
 };
 
